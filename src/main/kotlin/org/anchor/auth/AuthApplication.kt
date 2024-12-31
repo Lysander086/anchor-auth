@@ -1,11 +1,11 @@
-package org.verita.auth
+package org.anchor.auth
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class VeriAuthApplication
+class AuthApplication
 
 fun main(args: Array<String>) {
-    runApplication<VeriAuthApplication>(*args)
+    runApplication<AuthApplication>(*args)
 }

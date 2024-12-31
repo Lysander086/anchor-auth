@@ -1,10 +1,10 @@
-package org.verita.auth
+package org.anchor.auth
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class VeriAuthApplicationTests {
+class AuthApplicationTests {
 
     @Test
     fun contextLoads() {
